@@ -5,8 +5,8 @@ using namespace std;
 int main()
 {
     cout << "Enter A and B: ";
-    int a, b;
-    int max = a;
+    double a, b;
+    double max = a;
     if (b > a) max = b;
     cin >> a >> b;
     cout << "a + b = "<< a + b <<'\n'
